@@ -3,7 +3,7 @@ import google.generativeai as genai
 import fitz  # PyMuPDF for PDF reading
 
 # Setup Gemini
-genai.configure(api_key="AIzaSyDhxjo0ka-RFZ2SYlqc2eT_qlieuEPtpwU")  # Replace with your actual API key
+genai.configure(api_key="xxxxxxxxxxxxxxxxxx")  # Replace with your actual API key
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Page setup
